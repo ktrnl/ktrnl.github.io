@@ -1,6 +1,6 @@
 
 body {margin: 0;
-  font-family: futura;
+  font-family: Poiret;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -36,6 +36,11 @@ h1 {margin: 2px;}
   animation: mymove 12s infinite;
   animation-delay: 4s;
   animation-direction: alternate;
+}
+
+h2 {
+  margin: 0px;
+  font-family: Poiret;
 }
 
 #background {
@@ -105,7 +110,7 @@ h1 {margin: 2px;}
   font-size: 40px;
   font-family: Retro;
   margin: 0px;
-  padding: 20px;
+  padding: 10px 10px 10px;
   height: 65px;
   max-width: 100%;
 
@@ -113,9 +118,12 @@ h1 {margin: 2px;}
 
 .section4 {
   margin: 0px;
-  padding: 0px 50px 100px 50px;
+  padding: 20px 0px 60px 0px;
   height: 300px;
   max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center 
 }
 
 .section5 {
@@ -124,17 +132,33 @@ h1 {margin: 2px;}
   color: #fff;
 }
 
-img {
+.section6 {
+  margin: 0px;
+  padding: 30px 50px 60px 50px;
+  height: 200px;
+  max-width: 100%;
+}
+
+.section7 {
+  margin: 0px;
+  padding: 30px 50px 40px 50px;
+  height: 250px;
+  max-width: 100%;
+}
+
+.divimage img {
   max-width: 250px;
   height: auto;
-  margin: 20px;
-  border: 1px #666666 solid;
+  margin: 20px 0px;
+  /* border: 0.5px #666666 solid; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 ul.resume {
   list-style-type: none;
   float: left;
+  padding: 0px;
+
 }
 
 .resume li {
@@ -144,10 +168,38 @@ ul.resume {
 .divimage {
   margin: 0px 20px;
   padding: 0px;
-  max-width: 260px;
+  max-width: 250px;
   float: left;
   text-align: center;
+  align-content: center;
 }
+
+p {text-align:center;font-size:14px;color:#666666;}
+
+.scoop {
+  display: flex;
+  align-items: center;
+  justify-content: center 
+}
+
+.scoop div {
+  padding: 0px 20px;
+  margin: 0px 20px;
+}
+
+.seo {
+  display: flex;
+  align-items: center;
+  justify-content: center 
+}
+
+.seo img {
+  max-height: 100px;
+  width: auto;
+  float:left;
+  margin: 30px 10px 0px;
+}
+
     /*
 
     #div1 {
@@ -271,6 +323,8 @@ ul.resume {
   padding: 10px;
   background-color: #666666;
   color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family:Poiret;
 }
 /*Picture buttons
 .img {
@@ -322,17 +376,17 @@ section {
 /*fonts*/
 @font-face {
  font-family: Poiret;
- src: url(PoiretOne-Regular.ttf);
+ src: url(fonts/PoiretOne-Regular.ttf);
 }
 
 @font-face {
  font-family: Retro;
- src: url(ZnikomitNo25.otf);
+ src: url(fonts/ZnikomitNo25.otf);
 }
 
 @font-face {
  font-family: futura;
- src: url(Futura.ttc);
+ src: url(fonts/Futura.ttc);
 }
 
 @media screen and (max-width: 740px){
