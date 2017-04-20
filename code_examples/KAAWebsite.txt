@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script>
+    function panelView() {
+      document.getElementById("panel").style.display = "block"; 
+    }
+
+    function panelHide() {  
+      document.getElementById("panel").style.display = "none";
+    }
+    function panelView2() {
+      document.getElementById("panel2").style.display = "block";
+    }
+
+    function panelHide2() {
+      document.getElementById("panel2").style.display = "none";
+    }
+
+    function panelView3() {
+      document.getElementById("panel3").style.display = "block";
+    }
+
+    function panelHide3() {
+      document.getElementById("panel3").style.display = "none";
+    } 
+  </script>
+</head>
+<body>
+   <!-- <div id="div1" style="margin:auto;"><h1 class="small">Katie Arnell</h1></div>
+    <br />
+    <h3 style="font-family:Retro; font-size:0.8em"><em>Designer * SEO Specialist * Advertising Account Planner * Digital Marketer</em></h3> -->
+    <header>
+      <div id="background">
+        <div class="name" id="div1"><h1>Katie Arnell</h1></div>
+        <br />
+        <div class="name" id="div2">SEO Specialist</div>
+        <div class="name" id="div3">Budding Web Designer</div>
+        <div class="name" id="div4">Account Strategist</div>
+        <div class="name" id="div5">Digital Marketer</div>
+      </div>
+    </header>
+    <ul class="topnav">
+      <li><a href="portfolio.html" class="active">Home</a></li>
+      <li><a href="aboutme.html">About</a></li>
+      <li><a href="workexp.html">My Work</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <section>
+      <div class="section1 section3">
+        The Inside Scoop on Me </div>
+
+      <div class="section1 section4" id="panel">
+        Info <br />
+        <br /><br />
+      </div>
+  
+
+        <div class="section3 section5">
+          Past Work Examples
+        </div>
+        <div class="section2 section3">
+          Content Writing
+        </div>
+
+        <div class="section2 section4" id="panel2"> 
+
+            <div class="divimage">
+              <img src="file:///Users/Arnell/Desktop/Website/MS.png" alt="Monarch Storage" />
+              <br />
+              <a class="download" href="http://monarchstorage.com/blog/">Monarch Storage Blog</a>
+            </div>
+
+            <div class="divimage">
+              <img src="file:///Users/Arnell/Desktop/Website/Savavo.png" alt="Savavo" />
+              <br />
+              <a class="download" href="https://savavo.com/blog/">Savavo Blog</a>
+            </div>
+
+            <div class="divimage">
+              <img src="file:///Users/Arnell/Desktop/Website/EL.png" alt="Express Landscape" />
+              <br />
+              <a class="download" href="http://www.expresslandscapeproducts.com/blog/">Express Landscape Blog</a>
+            </div>
+            <!-- <div>
+            <ul class="resume">
+              <li><a class="download" href="file:///Users/Arnell/Desktop/Website/Katie%20Arnell%20Resume.pdf" download>Resume</a></li>
+              <li><a class="download" href="file:///Users/Arnell/Desktop/Website/Katie%20Arnell%20Resume.pdf" download>Portfolio</a></li>
+            </ul>
+          </div> -->
+        </div>
+
+        <div class="section1 section3"> 
+          SEO Auditing 
+       </div>
+
+       <div class="section1 section4"></div>
+      <div class="section2 section3">
+          HTML Coding
+      </div>
+        <div class="section2 section4" id="panel2"> 
+        <iframe src="file:///Users/Arnell/Desktop/Website/KAAWebsite.html" width="100%" height="250"></iframe>
+      </div>
+      <div class="section3 section5">
+          Want to Reach Me?
+        </div>
+           <div class="section1 section4"></div>
+     </section>
+     <footer>
+      <h3>Want to hear more? Download my resume!</h3>
+      <button class="button"><a href="file:///Users/Arnell/Desktop/Website/Katie%20Arnell%20Resume.pdf" style="color:white; font-family:Retro;" download><span>Resume</span></a></button>
+    </footer>
+  </body>
+  </html>
