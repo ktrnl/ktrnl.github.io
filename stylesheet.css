@@ -146,6 +146,12 @@ h2 {
   max-width: 100%;
 }
 
+.social {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
 .divimage img {
   max-width: 250px;
   height: auto;
@@ -185,6 +191,7 @@ p {text-align:center;font-size:14px;color:#666666;}
 .scoop div {
   padding: 0px 20px;
   margin: 0px 20px;
+  float:left;
 }
 
 .seo {
@@ -200,35 +207,7 @@ p {text-align:center;font-size:14px;color:#666666;}
   margin: 30px 10px 0px;
 }
 
-    /*
-
-    #div1 {
-    width: 300px;
-    height: 55px;
-    background: transparent;
-    font-size: 23px;
-    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
-    transition: width 2s, height 2s, font-size 1.5s, transform 2s;
-}
-
-#div1:hover {
-    width: 400px;
-    height: 90px;
-    font-size: 35px;
-    -webkit-transform: rotate(360deg); 
-    transform: rotate(360deg);
-}
-
-    ::-moz-selection { 
-      color: white;
-      background: #66CCCC;
-    }
-
-    ::selection {
-      color: white;
-      background: #66cccc;
-    }
-    */
+   
 
     /*Contact Me Button */
     .button {
@@ -326,6 +305,46 @@ p {text-align:center;font-size:14px;color:#666666;}
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-family:Poiret;
 }
+
+.savavo {
+  cursor:pointer;
+  margin:20px 20px;
+  width:250px;
+  height:250px;
+  background-color:#66CCCC;
+  color:#ffffff;
+  text-align:center;
+  border:none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 30px;
+  font-family:Poiret;
+  float:left;
+}
+
+.list {
+  padding:0px;
+  margin:0px;
+  max-width:200px;
+  float:left;
+}
+
+.code {
+  float:left;
+  margin:20px;
+  background-color:#E9FFFF;
+  border:none;
+  border-left:#66cccc 5px solid;
+}
+
+.vid {
+  float:left;
+  padding:20px;
+  margin:0px;
+}
+
+video {
+  width: 330px;
+}
 /*Picture buttons
 .img {
   background-image: url("file:///Users/Arnell/Desktop/Website/Scan.png");
@@ -389,6 +408,141 @@ section {
  src: url(fonts/Futura.ttc);
 }
 
+@media screen and (min-width: 1015px; max-width: 740px) {
+  
+}
+
 @media screen and (max-width: 740px){
   ul.topnav li {float: none;}
+  .divimage {
+  margin: 0px;
+  padding: 0px;
+  min-width:100%;
+  float:none;
+  text-align: center;
+  align-content: center;
+}
+.section3 {
+  font-size: 25px;
+  font-family: Retro;
+  margin: 0px;
+  padding: 10px 10px 10px;
+  max-width: 100%;
+  height:auto;
+  display:block;
+
+}
+
+.section4 {
+  margin: 0px;
+  max-width: 100%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  text-align:center;
+}
+
+
+.section6 {
+  margin: 0px;
+  max-width: 100%;
+  display:block;
+  height:auto;
+}
+
+.section7 {
+  margin: 0px;
+  max-width: 100%;
+  display: block;
+  height:auto;
+  padding:0px;
+}
+.scoop {
+  display: block;
+  align-items: center;
+  justify-content: center 
+}
+
+.scoop div {
+  padding: 0px 20px;
+  margin: 0px;
+  float:none;
+}
+
+.seo {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.seo div {
+    text-align:center;
+    padding: 20px 0px;
+}
+.seo img {
+  max-height: 100px;
+  width: auto;
+  float:none;
+  margin: 0px;
+}
+
+iframe.code {
+  width:90%;
+}
+
+.code {
+  float:none;
+  margin:10px;
+  background-color:#E9FFFF;
+  border:none;
+  border-left:#66cccc 5px solid;
+}
+
+.savavo {
+  cursor:pointer;
+  margin:10px 0px;
+  width:250px;
+  height:250px;
+  background-color:#66CCCC;
+  color:#ffffff;
+  text-align:center;
+  border:none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 30px;
+  font-family:Poiret;
+  float:none;
+}
+
+.phone {
+  text-align:center;
+  padding: 10px 0px;
+  float:none;
+}
+
+.list {
+  text-align:center;
+  padding: 10px 0px;
+  float:none;
+  max-width: 100%;
+}
+
+ul.resume {
+  float:none;
+}
+
+.social {
+  display:block;
+}
+
+.vid {
+  float:none;
+  padding:0px;
+  margin:20px 0px;
+  text-align:center;
+}
+
+video {
+  width: 250px;
+}
+
 }
