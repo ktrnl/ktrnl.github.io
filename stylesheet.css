@@ -168,7 +168,7 @@ ul.resume {
 }
 
 .resume li {
-  margin: 30px 0px;
+  margin: 10px 0px;
 }
 
 .divimage {
@@ -345,6 +345,21 @@ p {text-align:center;font-size:14px;color:#666666;}
 video {
   width: 330px;
 }
+
+.sites {
+  background-color: #666666;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0px;
+    max-width: 130px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family:Poiret;
+   }
+
+.sites a {
+      text-decoration:none;
+      color: #ffffff;
+}
 /*Picture buttons
 .img {
   background-image: url("file:///Users/Arnell/Desktop/Website/Scan.png");
@@ -406,10 +421,6 @@ section {
 @font-face {
  font-family: futura;
  src: url(fonts/Futura.ttc);
-}
-
-@media screen and (min-width: 1015px; max-width: 740px) {
-  
 }
 
 @media screen and (max-width: 740px){
@@ -490,6 +501,10 @@ iframe.code {
   width:90%;
 }
 
+iframe {
+  max-height: 300px;
+}
+
 .code {
   float:none;
   margin:10px;
@@ -543,6 +558,10 @@ ul.resume {
 
 video {
   width: 250px;
+}
+
+.sites {
+  margin: auto;
 }
 
 }
